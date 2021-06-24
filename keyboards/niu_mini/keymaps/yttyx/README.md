@@ -1,32 +1,30 @@
 # Overview
 
-This layout uses a mirror variant of Balance 12, created by Sasha Viminitz. See [this page](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/) 
-for more information.
+This layout uses a mirror variant of Balance 12 [created by Sasha Viminitz](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/).
 
 ## To build
 
 ```
-make niu_mini:yttyx
-```
-
-## To flash (example)
+qmk compile -kb niu_mini -km yttyx
 
 ```
-sudo dfu-programmer atmega32u4 erase
-sudo dfu-programmer atmega32u4 flash niu_mini_yttyx.hex --debug 6
-sudo dfu-programmer atmega32u4 launch
+
+## To flash
+
+```
+qmk flash -kb niu_mini -km yttyx
 ```
 
 ## Layers
 
-### Balance 12 base (BA) layer
-![Base layer](https://i.imgur.com/I0TkIHT.png)
+### Balance 12 (BA) layer
+![Base layer](https://i.imgur.com/2GmPuib.png)
 
 ### Numeric/Punctuation (NP) layer
-![Numeric/Punctuation layer](https://i.imgur.com/GgZ0PCq.png)
+![Numeric/Punctuation layer](https://i.imgur.com/R6BRSEj.png)
 
 ### Function/Cursor (FC) layer
-![Function/Cursor layer](https://i.imgur.com/zcVID2d.png)
+![Function/Cursor layer](https://i.imgur.com/TDDkJ7M.png)
 
-### Plover (PL) layer
-![Plover layer](https://i.imgur.com/RikOGXe.png)
+### Stenography (ST) layer
+![Stenography layer](https://i.imgur.com/zim1sZX.png)
