@@ -1,30 +1,29 @@
 # Overview
 
-This layout uses a mirror variant of Balance 12, created by Sasha Viminitz. See [this page](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/) 
-for more information.
+This layout uses a mirror variant of Balance 12 [created by Sasha Viminitz](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/).
 
 ## To build
 
 ```
-make planck/rev6:yttyx
+qmk compile -kb planck/rev6 -km yttyx
 ```
 
-## To build and flash
+## To flash
 
 ```
-make planck/rev6:yttyx:flash
+qmk flash -kb planck/rev6 -km yttyx
 ```
 
 ## Layers
 
-### Balance 12 base (BA) layer
-![Base layer](https://i.imgur.com/I0TkIHT.png)
+### Balance 12 (BA) layer
+![Base layer](https://i.imgur.com/2GmPuib.png)
 
 ### Numeric/Punctuation (NP) layer
-![Numeric/Punctuation layer](https://i.imgur.com/GgZ0PCq.png)
+![Numeric/Punctuation layer](https://i.imgur.com/R6BRSEj.png)
 
 ### Function/Cursor (FC) layer
-![Function/Cursor layer](https://i.imgur.com/zcVID2d.png)
+![Function/Cursor layer](https://i.imgur.com/TDDkJ7M.png)
 
-### Plover (PL) layer
-![Plover layer](https://i.imgur.com/RikOGXe.png)
+### Stenography (ST) layer
+![Stenography layer](https://i.imgur.com/zim1sZX.png)
