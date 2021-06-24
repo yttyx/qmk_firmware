@@ -1,5 +1,9 @@
 # Build Options
+<<<<<<< HEAD
 AUDIO_ENABLE = yes
+=======
+AUDIO_ENABLE = no
+>>>>>>> master
 CONSOLE_ENABLE = no
 EXTRAKEY_ENABLE = no
 MIDI_ENABLE = no
